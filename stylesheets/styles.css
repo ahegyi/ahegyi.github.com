@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400);
+@import url(http://fonts.googleapis.com/css?family=Arvo:700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400italic);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
 
 /* MeyerWeb Reset */
 
@@ -52,6 +55,10 @@ h1, h2, h3 {
 	font-weight: normal;
 }
 
+h1.script {
+	font-family: Courgette, script;
+}
+
 h1,h2, h3 {
 	display: block;
 	border-bottom: 1px solid #ccc;
@@ -93,7 +100,7 @@ em {
 	font-style: italic;
 }
 
-strong {
+b, strong {
   font-weight:700;
 }
 
