@@ -1,0 +1,83 @@
+body {
+	background: #fff url("../images/aron_in_sicily.jpg");
+	background-size: cover;
+	font-family: 'Vollkorn';
+}
+
+header {
+	padding-top: 40px;
+}
+
+header h1 {
+	padding-left: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-style: italic;
+	font-family: 'Vollkorn';
+	font-weight: normal;
+}
+
+ /* social stuff */
+.social .span6 {
+  background-color: rgba(255,255,255,0.2);
+  padding: 10px;
+}
+.social .span3 {
+  text-align: center;
+}
+.social .span3 h2 {
+  font-style: normal;
+}
+.social .span3 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#instafeed {
+/*	float: left; */
+	background-color: #171717;
+/*	border: 1px solid black;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+*/
+	white-space: nowrap;
+	overflow: auto;
+	overflow-y: hidden;
+	position: fixed;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+}
+
+#instafeed.low_resolution {
+	width: 97.2%;
+	height: 306px;
+	padding: 20px 1.4%;
+}
+#instafeed.thumbs {
+	width: 98.4%;
+	height: 150px;
+	padding: 10px 0.8%
+}
+
+#instafeed .photo {
+	display: inline;
+}
+
+#instafeed.low_resolution .photo {
+	width: 306px;
+	height: 306px;
+}
+
+#instafeed.thumbs .photo {
+	width: 150px;
+	height: 150px;
+}
+
+#instafeed .photo img {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
